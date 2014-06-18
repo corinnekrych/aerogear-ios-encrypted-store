@@ -15,12 +15,15 @@
  * limitations under the License.
  */
 
-#import <Foundation/Foundation.h>
-#import "AGAdapter.h"
+#ifndef _AEROGEAR_ENCRYPTED_STORE_
+#define _AEROGEAR_ENCRYPTED_STORE_
 
-@interface AGBaseAdapter : NSObject <AGAdapter>
+#pragma mark - Encryption
+#import "AGCryptoConfig.h"
+#import "AGKeyStoreCryptoConfig.h"
+#import "AGPassphraseCryptoConfig.h"
+#import "AGKeyManager.h"
+#import "AGEncryptionService.h"
 
-// TODO: move out of here, move it into a util class...
-+(BOOL) accepts:(NSString*) type;
+#endif /* _AEROGEAR_ENCRYPTED_STORE_ */
 
-@end

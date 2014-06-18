@@ -17,8 +17,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AGBaseStorage.h"
-#import "AGStore.h"
-#import "AGStoreConfiguration.h"
+#import <AeroGear-Store.h>
 /**
  An internal AGStore implementation that uses an encrypted "plist" storage.
  

@@ -1,9 +1,8 @@
-xcodeproj 'AeroGear-iOS.xcodeproj'
+xcodeproj 'AeroGear-Encrypted-Store.xcodeproj'
 
 platform :ios, '7.0'
 
-pod 'AFNetworking', '2.2.1'
-pod 'FMDB', '2.1'
+pod 'AeroGear-Store',  :git => 'https://github.com/corinnekrych/aerogear-ios-store.git'
 pod 'AeroGear-Crypto', '0.2.3'
 
 target 'AeroGear-iOSTests', :exclusive => true do

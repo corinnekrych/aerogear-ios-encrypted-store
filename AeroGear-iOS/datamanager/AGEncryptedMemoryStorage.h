@@ -16,7 +16,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "AGMemoryStorage.h"
+#import <AeroGear-Store.h>
 
 /**
  An internal AGStore implementation that uses an encrypted "in-memory" storage.

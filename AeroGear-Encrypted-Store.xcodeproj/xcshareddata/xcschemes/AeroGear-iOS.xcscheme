@@ -17,21 +17,7 @@
                BlueprintIdentifier = "57737FD815E3D01D006B97BB"
                BuildableName = "libAeroGear-iOS.a"
                BlueprintName = "AeroGear-iOS"
-               ReferencedContainer = "container:AeroGear-iOS.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57737FE915E3D01D006B97BB"
-               BuildableName = "AeroGear-iOSTests.xctest"
-               BlueprintName = "AeroGear-iOSTests"
-               ReferencedContainer = "container:AeroGear-iOS.xcodeproj">
+               ReferencedContainer = "container:AeroGear-Encrypted-Store.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +35,7 @@
                BlueprintIdentifier = "57737FE915E3D01D006B97BB"
                BuildableName = "AeroGear-iOSTests.xctest"
                BlueprintName = "AeroGear-iOSTests"
-               ReferencedContainer = "container:AeroGear-iOS.xcodeproj">
+               ReferencedContainer = "container:AeroGear-Encrypted-Store.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

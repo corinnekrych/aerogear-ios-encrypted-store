@@ -16,11 +16,10 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "AGStore.h"
-#import "AGStoreConfiguration.h"
-#import "FMDatabase.h"
-#import "AGEncoder.h"
 
+#import "FMDatabase.h"
+
+#import <AeroGear-Store.h>
 @class AGSQLiteCommand;
 
 /**
